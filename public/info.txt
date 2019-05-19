@@ -1,0 +1,1 @@
+this public folder contains the library files and additonal styling and js files
