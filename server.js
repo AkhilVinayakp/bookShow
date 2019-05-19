@@ -4,6 +4,7 @@ var ejs=require('ejs');
 var engine=require('ejs-mate');
 app.engine('ejs',engine);
 app.set('view engine','ejs');
+app.use(express.static('public'));
 app.get('/',(req,res,next)=>{
     res.render('index');
 })
